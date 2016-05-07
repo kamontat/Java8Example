@@ -1,4 +1,4 @@
-package com.kamontat.libraries.stream;
+package com.kamontat.libraries.stream.collections;
 
 /**
  * @author kamontat

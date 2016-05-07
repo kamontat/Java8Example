@@ -1,4 +1,4 @@
-package com.kamontat.libraries.stream;
+package com.kamontat.libraries.stream.collections;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -34,7 +34,7 @@ public class Main {
 
 		// variable in lambda must be final or effective final
 		double finalTotalPoint = totalPoint;
-		
+
 		/*
 			.mapToInt(variable -> doSomething) <- use variable(int) to doSomething and return int, and convert int to IntStream
 			.mapToDouble(variable -> doSomething) <- use variable(double) to doSomething and return double, and convert double to DoubleStream
